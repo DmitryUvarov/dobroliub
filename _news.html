@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Верстка</title>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <a href="/" class="logo header__logo"></a>
+            <div class="navbar-mobile">
+                <nav class="navbar">
+                    <ul class="menu menu-main">
+                        <li class="menu-item">
+                            <a href="#">Про фонд</a>
+                        </li>
+                        <li class="menu-item menu-item-has-children">
+                            <a href="#">Програми</a>
+                            <ul class="sub-menu">
+                                <li class="menu-item"><a href="#">Послугa 1</a></li>
+                                <li class="menu-item"><a href="#">Послугa 1</a></li>
+                                <li class="menu-item"><a href="#">Послугa 1</a></li>
+                                <li class="menu-item"><a href="#">Послугa 1</a></li>
+                                <li class="menu-item"><a href="#">Послугa 1</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Новини</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Контакти</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Медіа</a>
+                        </li>
+                    </ul>
+
+                    <div class="soc-wr">
+                        <a href="#" class="soc soc_fb"></a>
+                        <a href="#" class="soc soc_in"></a>
+                        <a href="#" class="soc soc_yt"></a>
+                    </div>
+                </nav>
+            </div>
+            <a href="#" class="button header__button">Підтримати</a>
+            <div class="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+    <div class="screen-news">
+        <div class="wrapper">
+            <div class="news-tabs tabs">
+                <div class="tabs__nav">
+                    <h1 class="tabs__nav-btn active" data-tab="#tab_1">Новини</h1>
+                    <h2 class="tabs__nav-btn" data-tab="#tab_2">ЗМІ про нас</h2>
+                </div>
+                <div class="tabs__content">
+                    <div class="tabs__item active" id="tab_1">
+                        <div class="news-plate-wr">
+                            <a href="#" class="news-plate">
+                                <div class="news-plate__image">
+                                    <div class="image" style="background-image: url('images/news-plate.jpg');"></div>
+                                </div>
+                                <div class="news-plate__content">
+                                    <div class="news-plate__title">Сотні жителів Бородянки отримали безкоштовну медичну допомогу</div>
+                                    <div class="news-plate__text">«Фонд Добра та Любові» продовжує роботу у раніше окупованих населених пунктах. Два дні волонтери-християни надавали безкоштовну медичну допомогу на Київщині.</div>
+                                    <div class="news-plate__link">Докладніше...</div>
+                                </div>
+                            </a>
+                            <a href="#" class="news-plate">
+                                <div class="news-plate__image">
+                                    <div class="image" style="background-image: url('images/news-plate.jpg');"></div>
+                                </div>
+                                <div class="news-plate__content">
+                                    <div class="news-plate__title">Сотні жителів Бородянки отримали безкоштовну медичну допомогу</div>
+                                    <div class="news-plate__text">«Фонд Добра та Любові» продовжує роботу у раніше окупованих населених пунктах. Два дні волонтери-християни надавали безкоштовну медичну допомогу на Київщині.</div>
+                                    <div class="news-plate__link">Докладніше...</div>
+                                </div>
+                            </a>
+                            <a href="#" class="news-plate">
+                                <div class="news-plate__image">
+                                    <div class="image" style="background-image: url('images/news-plate.jpg');"></div>
+                                </div>
+                                <div class="news-plate__content">
+                                    <div class="news-plate__title">Сотні жителів Бородянки отримали безкоштовну медичну допомогу</div>
+                                    <div class="news-plate__text">«Фонд Добра та Любові» продовжує роботу у раніше окупованих населених пунктах. Два дні волонтери-християни надавали безкоштовну медичну допомогу на Київщині.</div>
+                                    <div class="news-plate__link">Докладніше...</div>
+                                </div>
+                            </a>
+
+                            <nav class="pagination">
+                                <a class="prev page-numbers" href="#"></a>
+                                <a class="page-numbers" href="#">1</a>
+                                <span class="page-numbers current">2</span>
+                                <a class="page-numbers" href="#">3</a>
+                                <a class="page-numbers" href="#">4</a>
+                                <a class="next page-numbers" href="#"></a>
+                            </nav>
+                        </div>
+                        <div class="actual-block">
+                            <div class="actual-block__title">Актуальне</div>
+                            <div class="actual-items">
+                                <a href="#" class="actual">
+                                    <div class="date">11.07.2022</div>
+                                    <div class="actual__content">
+                                        <div class="actual__image">
+                                            <div class="image" style="background-image: url('images/news-preview.jpg');"></div>
+                                        </div>
+                                        <p class="actual__text">Волонтери "Фонду Добра та Любові" під обстрілами евакуювали з Донбасу близько 500 людей...</p>
+                                    </div>
+                                </a>
+                                <a href="#" class="actual">
+                                    <div class="date">11.07.2022</div>
+                                    <div class="actual__content">
+                                        <div class="actual__image">
+                                            <div class="image" style="background-image: url('images/news-preview.jpg');"></div>
+                                        </div>
+                                        <p class="actual__text">Волонтери "Фонду Добра та Любові" під обстрілами евакуювали з Донбасу близько 500 людей...</p>
+                                    </div>
+                                </a>
+                                <a href="#" class="actual">
+                                    <div class="date">11.07.2022</div>
+                                    <div class="actual__content">
+                                        <div class="actual__image">
+                                            <div class="image" style="background-image: url('images/news-preview.jpg');"></div>
+                                        </div>
+                                        <p class="actual__text">Волонтери "Фонду Добра та Любові" під обстрілами евакуювали з Донбасу близько 500 людей...</p>
+                                    </div>
+                                </a>
+                                <a href="#" class="actual">
+                                    <div class="date">11.07.2022</div>
+                                    <div class="actual__content">
+                                        <div class="actual__image">
+                                            <div class="image" style="background-image: url('images/news-preview.jpg');"></div>
+                                        </div>
+                                        <p class="actual__text">Волонтери "Фонду Добра та Любові" під обстрілами евакуювали з Донбасу близько 500 людей...</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tabs__item" id="tab_2">
+                        <div class="news-program-slider">
+                            <div class="swiper-wrapper">
+                                <a href="#" class="swiper-slide news-plate">
+                                    <div class="news-plate__image">
+                                        <div class="image" style="background-image: url('images/news-plate.jpg');"></div>
+                                    </div>
+                                    <div class="news-plate__content">
+                                        <div class="news-plate__title">Сотні жителів міста Бородянка отримали безкоштовну медичну допомогу від волонтерів</div>
+                                        <div class="news-plate__text">«Фонд Добра та Любові» продовжує роботу у раніше окупованих населених пунктах...</div>
+                                        <div class="news-plate__link">Докладніше...</div>
+                                    </div>
+                                </a>
+                                <a href="#" class="swiper-slide news-plate">
+                                    <div class="news-plate__image">
+                                        <div class="image" style="background-image: url('images/news-plate.jpg');"></div>
+                                    </div>
+                                    <div class="news-plate__content">
+                                        <div class="news-plate__title">Сотні жителів міста Бородянка отримали безкоштовну медичну допомогу від волонтерів</div>
+                                        <div class="news-plate__text">«Фонд Добра та Любові» продовжує роботу у раніше окупованих населених пунктах...</div>
+                                        <div class="news-plate__link">Докладніше...</div>
+                                    </div>
+                                </a>
+                                <a href="#" class="swiper-slide news-plate">
+                                    <div class="news-plate__image">
+                                        <div class="image" style="background-image: url('images/news-plate.jpg');"></div>
+                                    </div>
+                                    <div class="news-plate__content">
+                                        <div class="news-plate__title">Сотні жителів міста Бородянка отримали безкоштовну медичну допомогу від волонтерів</div>
+                                        <div class="news-plate__text">«Фонд Добра та Любові» продовжує роботу у раніше окупованих населених пунктах...</div>
+                                        <div class="news-plate__link">Докладніше...</div>
+                                    </div>
+                                </a>
+                                <a href="#" class="swiper-slide news-plate">
+                                    <div class="news-plate__image">
+                                        <div class="image" style="background-image: url('images/news-plate.jpg');"></div>
+                                    </div>
+                                    <div class="news-plate__content">
+                                        <div class="news-plate__title">Сотні жителів міста Бородянка отримали безкоштовну медичну допомогу від волонтерів</div>
+                                        <div class="news-plate__text">«Фонд Добра та Любові» продовжує роботу у раніше окупованих населених пунктах...</div>
+                                        <div class="news-plate__link">Докладніше...</div>
+                                    </div>
+                                </a>
+                                <a href="#" class="swiper-slide news-plate">
+                                    <div class="news-plate__image">
+                                        <div class="image" style="background-image: url('images/news-plate.jpg');"></div>
+                                    </div>
+                                    <div class="news-plate__content">
+                                        <div class="news-plate__title">Сотні жителів міста Бородянка отримали безкоштовну медичну допомогу від волонтерів</div>
+                                        <div class="news-plate__text">«Фонд Добра та Любові» продовжує роботу у раніше окупованих населених пунктах...</div>
+                                        <div class="news-plate__link">Докладніше...</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="navigation">
+                                <button type="button" class="arrow button-prev"></button>
+                                <button type="button" class="arrow button-next"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="wrapper">
+            <a href="/" class="logo footer__logo"></a>
+            <div class="footer__caption">Україні потрібна ваша допомога</div>
+            <div class="footer__content">
+                <a href="#" class="button">Підтримати фонд</a>
+                <div class="footer__desc">*Будь-яка надіслана вами сума допоможе врятувати Життя</div>
+            </div>
+            <div class="hotline">
+                <div class="hotline__desc">Гаряча лінія:</div>
+                <a href="tel:+88001234567" class="hotline__num">8 800 123 45 67</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

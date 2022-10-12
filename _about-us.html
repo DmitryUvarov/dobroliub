@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Верстка</title>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <a href="/" class="logo header__logo"></a>
+            <div class="navbar-mobile">
+                <nav class="navbar">
+                    <ul class="menu menu-main">
+                        <li class="menu-item">
+                            <a href="#">Про фонд</a>
+                        </li>
+                        <li class="menu-item menu-item-has-children">
+                            <a href="#">Програми</a>
+                            <ul class="sub-menu">
+                                <li class="menu-item"><a href="#">Послугa 1</a></li>
+                                <li class="menu-item"><a href="#">Послугa 1</a></li>
+                                <li class="menu-item"><a href="#">Послугa 1</a></li>
+                                <li class="menu-item"><a href="#">Послугa 1</a></li>
+                                <li class="menu-item"><a href="#">Послугa 1</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Новини</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Контакти</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Медіа</a>
+                        </li>
+                    </ul>
+
+                    <div class="soc-wr">
+                        <a href="#" class="soc soc_fb"></a>
+                        <a href="#" class="soc soc_in"></a>
+                        <a href="#" class="soc soc_yt"></a>
+                    </div>
+                </nav>
+            </div>
+            <a href="#" class="button header__button">Підтримати</a>
+            <div class="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+    <div class="screen-mission">
+        <div class="wrapper">
+            <h1 class="screen-mission__caption">Допомогаємо українцям, що знаходяться в надтяжких
+                умовах</h1>
+            <div class="mission-float">
+                <div class="mission-float__first mission-float__item">
+                    <div class="mission-banner">
+                        <h3>Місія</h3>
+                        <p>Діяльність Фонду – це внесок у справу розвитку соціального, культурного та духовного потенціалу України, підвищення рівня морального та фізичного здоров’я, освіченості її громадян на основі доброчинності.</p>
+                    </div>
+                    <a href="https://www.youtube.com/watch?v=Jp0avyM6ui4" data-fancybox class="mission-video decor">
+                        <div class="video" style="background-image: url('images/video-preview.jpg');"></div>
+                        <div class="image-decor-red video-decor"></div>
+                    </a>
+                </div>
+                <div class="mission-float__second mission-float__item">
+                    <div class="mission-banner">
+                        <h3>Цінності</h3>
+                        <p>Цінності – вірити і любити. Лише віра долає труднощі, сумніви і безсилля. Лише любов дає натхнення і силу дбати про тих, хто вкрай цього потребує.</p>
+                        <p>Ми керуємося прозорістю, дотриманням етичних норм і стандартів. Чітко декларуємо наші засади, цінуємо довіру громадськості і будуємо партнерські взаємини для ефективного вирішення соціальних та інших проблем у суспільстві.</p>
+                    </div>
+                    <div class="mission-text">
+                        <p>МБО « Фонд Добра та Любові» заснована у лютому 2006 року. З того часу ми допомагаємо українським сім’ям та іншим категоріям населення, які опинилися в складних життєвих обставинах, надаючи їм адресну допомогу. Також вагомою частиною у роботі Фонду є надання системну підтримку для дітей та юнацтва, реалізація соціальних, освітніх та культурних програм та ініціатив у галузі охорони здоров'я.</p>
+                        <p>З 2014 року як благодійна організація ми працюємо із
+                            постраждалими через агресію Росії в Україні. У зв’язку з критичною гуманітарною ситуацією на території України через повномасштабні воєнні дії, фонд не зупиняє свою роботу, а навпаки – посилює.</p>
+                        <strong>Разом до перемоги!</strong>
+                    </div>
+                </div>
+            </div>
+            <div class="stat-wr">
+                <div class="stat">
+                    <div class="stat__num">3 000+</div>
+                    <div class="stat__desc">проектів успішно реалізовано фондом</div>
+                </div>
+                <div class="stat">
+                    <div class="stat__num">$10 млн.</div>
+                    <div class="stat__desc">надано допомоги з початку війни</div>
+                </div>
+                <div class="stat">
+                    <div class="stat__num">1 290 000+</div>
+                    <div class="stat__desc">людей отримали допомогу</div>
+                </div>
+                <div class="stat">
+                    <div class="stat__num">3 528</div>
+                    <div class="stat__desc">людей евакуйовано із зон бойових дій</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="screen-foto inner">
+        <div class="wrapper">
+            <h2 class="screen-caption">Що ми робимо</h2>
+
+            <div class="foto-slider slider-foto">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slider-foto__slide">
+                        <div class="slider-foto__image" style="background-image: url('images/mainscreen-bg.jpg');"></div>
+                        <div class="slider-foto__text">В блоці “Медіа” ми хочемо поділитися нашими спогадами...</div>
+                    </div>
+                    <div class="swiper-slide slider-foto__slide">
+                        <div class="slider-foto__image" style="background-image: url('images/mainscreen-bg.jpg');"></div>
+                        <div class="slider-foto__text">В блоці “Медіа” ми хочемо поділитися нашими спогадами...</div>
+                    </div>
+                    <div class="swiper-slide slider-foto__slide">
+                        <div class="slider-foto__image" style="background-image: url('images/mainscreen-bg.jpg');"></div>
+                        <div class="slider-foto__text">В блоці “Медіа” ми хочемо поділитися нашими спогадами...</div>
+                    </div>
+                    <div class="swiper-slide slider-foto__slide">
+                        <div class="slider-foto__image" style="background-image: url('images/mainscreen-bg.jpg');"></div>
+                        <div class="slider-foto__text">В блоці “Медіа” ми хочемо поділитися нашими спогадами...</div>
+                    </div>
+                    <div class="swiper-slide slider-foto__slide">
+                        <div class="slider-foto__image" style="background-image: url('images/mainscreen-bg.jpg');"></div>
+                        <div class="slider-foto__text">В блоці “Медіа” ми хочемо поділитися нашими спогадами...</div>
+                    </div>
+                    <div class="swiper-slide slider-foto__slide">
+                        <div class="slider-foto__image" style="background-image: url('images/mainscreen-bg.jpg');"></div>
+                        <div class="slider-foto__text">В блоці “Медіа” ми хочемо поділитися нашими спогадами...</div>
+                    </div>
+                </div>
+                <div class="navigation">
+                    <button type="button" class="arrow button-prev"></button>
+                    <button type="button" class="arrow button-next"></button>
+                </div>
+            </div>
+            <div class="foto-slider-small slider-foto-small">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slider-foto-small__slide">
+                        <div class="slider-foto-small__image" style="background-image: url('images/news-preview.jpg');"></div>
+                        <div class="slider-foto-small__text">Волонтери "Фонду Добра та Любові" під обстрілами евакуювали з Донбасу близько 500 людей...</div>
+                    </div>
+                    <div class="swiper-slide slider-foto-small__slide">
+                        <div class="slider-foto-small__image" style="background-image: url('images/news-preview.jpg');"></div>
+                        <div class="slider-foto-small__text">Волонтери "Фонду Добра та Любові" під обстрілами евакуювали з Донбасу близько 500 людей...</div>
+                    </div>
+                    <div class="swiper-slide slider-foto-small__slide">
+                        <div class="slider-foto-small__image" style="background-image: url('images/news-preview.jpg');"></div>
+                        <div class="slider-foto-small__text">Волонтери "Фонду Добра та Любові" під обстрілами евакуювали з Донбасу близько 500 людей...</div>
+                    </div>
+                    <div class="swiper-slide slider-foto-small__slide">
+                        <div class="slider-foto-small__image" style="background-image: url('images/news-preview.jpg');"></div>
+                        <div class="slider-foto-small__text">Волонтери "Фонду Добра та Любові" під обстрілами евакуювали з Донбасу близько 500 людей...</div>
+                    </div>
+                    <div class="swiper-slide slider-foto-small__slide">
+                        <div class="slider-foto-small__image" style="background-image: url('images/news-preview.jpg');"></div>
+                        <div class="slider-foto-small__text">Волонтери "Фонду Добра та Любові" під обстрілами евакуювали з Донбасу близько 500 людей...</div>
+                    </div>
+                    <div class="swiper-slide slider-foto-small__slide">
+                        <div class="slider-foto-small__image" style="background-image: url('images/news-preview.jpg');"></div>
+                        <div class="slider-foto-small__text">Волонтери "Фонду Добра та Любові" під обстрілами евакуювали з Донбасу близько 500 людей...</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="screen-result">
+        <div class="wrapper">
+            <h2 class="screen-caption">Результати роботи та звіти</h2>
+            <div class="result-items">
+                <a href="#" class="result">Звіт за Лютий 2022</a>
+                <a href="#" class="result">Звіт за Березень 2022</a>
+                <a href="#" class="result">Звіт за Квітень 2022</a>
+                <a href="#" class="result">Звіт за Травень 2022</a>
+                <a href="#" class="result">Звіт за Червень 2022</a>
+            </div>
+        </div>
+    </div>
+    <div class="screen-rada">
+        <div class="wrapper">
+            <h2 class="screen-caption">Про нас</h2>
+            <div class="swiper slider-rada">
+                <div class="swiper-wrapper">
+                    <a class="swiper-slide rada-plate decor" href="#">
+                        <div class="rada-plate__image image-decor-red" style="background-image: url('images/rada-preview.jpg');"></div>
+                        <div class="rada-plate__name">Дубовий Олександр Федорович</div>
+                        <div class="rada-plate__desc">Голова наглядової ради ПрАТ «МІГ», народний депутат України VI-VII скликання Верховної Ради, меценат, філантроп.</div>
+                    </a>
+                    <a class="swiper-slide rada-plate decor" href="#">
+                        <div class="rada-plate__image image-decor-red" style="background-image: url('images/rada-preview.jpg');"></div>
+                        <div class="rada-plate__name">Катамадзе Грігол Шалвович</div>
+                        <div class="rada-plate__desc">Надзвичайний і Повноважний Посол Грузії в Україні (2009—2013). Президент ВГО «Асоціація платників податків України».</div>
+                    </a>
+                    <a class="swiper-slide rada-plate decor" href="#">
+                        <div class="rada-plate__image image-decor-red" style="background-image: url('images/rada-preview.jpg');"></div>
+                        <div class="rada-plate__name">Антонюк Валерій Степанович</div>
+                        <div class="rada-plate__desc">Голова Союзу Церков євангельських християн-баптистів, пастор, доктор служіння.</div>
+                    </a>
+                    <a class="swiper-slide rada-plate decor" href="#">
+                        <div class="rada-plate__image image-decor-red" style="background-image: url('images/rada-preview.jpg');"></div>
+                        <div class="rada-plate__name">Дубовий Олександр Федорович</div>
+                        <div class="rada-plate__desc">Голова наглядової ради ПрАТ «МІГ», народний депутат України VI-VII скликання Верховної Ради, меценат, філантроп.</div>
+                    </a>
+                    <a class="swiper-slide rada-plate decor" href="#">
+                        <div class="rada-plate__image image-decor-red" style="background-image: url('images/rada-preview.jpg');"></div>
+                        <div class="rada-plate__name">Катамадзе Грігол Шалвович</div>
+                        <div class="rada-plate__desc">Надзвичайний і Повноважний Посол Грузії в Україні (2009—2013). Президент ВГО «Асоціація платників податків України».</div>
+                    </a>
+                    <a class="swiper-slide rada-plate decor" href="#">
+                        <div class="rada-plate__image image-decor-red" style="background-image: url('images/rada-preview.jpg');"></div>
+                        <div class="rada-plate__name">Антонюк Валерій Степанович</div>
+                        <div class="rada-plate__desc">Голова Союзу Церков євангельських християн-баптистів, пастор, доктор служіння.</div>
+                    </a>
+                </div>
+
+                <div class="navigation">
+                    <button type="button" class="arrow button-prev"></button>
+                    <button type="button" class="arrow button-next"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="wrapper">
+            <a href="/" class="logo footer__logo"></a>
+            <div class="footer__caption">Україні потрібна ваша допомога</div>
+            <div class="footer__content">
+                <a href="#" class="button">Підтримати фонд</a>
+                <div class="footer__desc">*Будь-яка надіслана вами сума допоможе врятувати Життя</div>
+            </div>
+            <div class="hotline">
+                <div class="hotline__desc">Гаряча лінія:</div>
+                <a href="tel:+88001234567" class="hotline__num">8 800 123 45 67</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

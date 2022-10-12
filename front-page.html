@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="css/main.css">
+	<title>Верстка</title>
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<script src="js/main.js"></script>
+</head>
+
+<body>
+	<header class="header">
+		<div class="wrapper">
+			<a href="/" class="logo header__logo"></a>
+			<div class="navbar-mobile">
+				<nav class="navbar">
+					<ul class="menu menu-main">
+						<li class="menu-item">
+							<a href="#">Про фонд</a>
+						</li>
+						<li class="menu-item menu-item-has-children">
+							<a href="#">Програми</a>
+							<ul class="sub-menu">
+								<li class="menu-item"><a href="#">Послугa 1</a></li>
+								<li class="menu-item"><a href="#">Послугa 1</a></li>
+								<li class="menu-item"><a href="#">Послугa 1</a></li>
+								<li class="menu-item"><a href="#">Послугa 1</a></li>
+								<li class="menu-item"><a href="#">Послугa 1</a></li>
+							</ul>
+						</li>
+						<li class="menu-item">
+							<a href="#">Новини</a>
+						</li>
+						<li class="menu-item">
+							<a href="#">Контакти</a>
+						</li>
+						<li class="menu-item">
+							<a href="#">Медіа</a>
+						</li>
+					</ul>
+
+					<div class="soc-wr">
+						<a href="#" class="soc soc_fb"></a>
+						<a href="#" class="soc soc_in"></a>
+						<a href="#" class="soc soc_yt"></a>
+					</div>
+				</nav>
+			</div>
+			<a href="#" class="button header__button">Підтримати</a>
+			<div class="burger">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+	</header>
+	<div class="screen-main">
+		<div class="wrapper">
+			<h1 class="screen-main__h1">Ділимося добром та любов’ю у складні часи</h1>
+			<a href="#" class="button">Підтримати фонд</a>
+		</div>
+	</div>
+	<div class="screen-news-slider">
+		<div class="wrapper">
+			<div class="swiper news-slider">
+				<div class="swiper-wrapper">
+					<a class="swiper-slide news-slide decor" href="#">
+						<div class="news-slide__image image-decor" style="background-image: url('images/news-preview.jpg');"></div>
+						<div class="news-slide__caption">Волонтери "Фонду Добра та Любові" під обстрілами евакуювали з Донбасу близько 500 людей...</div>
+					</a>
+					<a class="swiper-slide news-slide decor" href="#">
+						<div class="news-slide__image image-decor" style="background-image: url('images/news-preview.jpg');"></div>
+						<div class="news-slide__caption">Інститут Нейрохірургії НАМН України отримав медичне обладнання від МБФ "Фонд Добра та Любові"...</div>
+					</a>
+					<a class="swiper-slide news-slide decor" href="#">
+						<div class="news-slide__image image-decor" style="background-image: url('images/news-preview.jpg');"></div>
+						<div class="news-slide__caption">З-під обстрілів на Донбасі волонтери МБФ "Фонд Добра та Любові" вивезли близько 200 цивільних...</div>
+					</a>
+					<a class="swiper-slide news-slide decor" href="#">
+						<div class="news-slide__image image-decor" style="background-image: url('images/news-preview.jpg');"></div>
+						<div class="news-slide__caption">“Фонд Добра та Любові" у травні надав понад 400 тонн гуманітарної допомоги військовим та цивільним</div>
+					</a>
+					<a class="swiper-slide news-slide decor" href="#">
+						<div class="news-slide__image image-decor" style="background-image: url('images/news-preview.jpg');"></div>
+						<div class="news-slide__caption">Волонтери "Фонду Добра та Любові" під обстрілами евакуювали з Донбасу близько 500 людей...</div>
+					</a>
+					<a class="swiper-slide news-slide decor" href="#">
+						<div class="news-slide__image image-decor" style="background-image: url('images/news-preview.jpg');"></div>
+						<div class="news-slide__caption">Інститут Нейрохірургії НАМН України отримав медичне обладнання від МБФ "Фонд Добра та Любові"...</div>
+					</a>
+					<a class="swiper-slide news-slide decor" href="#">
+						<div class="news-slide__image image-decor" style="background-image: url('images/news-preview.jpg');"></div>
+						<div class="news-slide__caption">З-під обстрілів на Донбасі волонтери МБФ "Фонд Добра та Любові" вивезли близько 200 цивільних...</div>
+					</a>
+					<a class="swiper-slide news-slide decor" href="#">
+						<div class="news-slide__image image-decor" style="background-image: url('images/news-preview.jpg');"></div>
+						<div class="news-slide__caption">“Фонд Добра та Любові" у травні надав понад 400 тонн гуманітарної допомоги військовим та цивільним</div>
+					</a>
+				</div>
+
+				<div class="pagination-slider"></div>
+				<div class="navigation">
+					<button type="button" class="arrow button-prev"></button>
+					<button type="button" class="arrow button-next"></button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="screen-video ">
+		<div class="wrapper">
+			<div class="video-items">
+				<a class="video-plate" href="https://www.youtube.com/watch?v=Jp0avyM6ui4" data-fancybox>
+					<div class="video-plate__image">
+						<div class="image" style="background-image: url('images/video-preview.jpg');"></div>
+					</div>
+					<div class="video-plate__caption">Допомога організаціям</div>
+				</a>
+				<a class="video-plate" href="https://www.youtube.com/watch?v=Jp0avyM6ui4" data-fancybox>
+					<div class="video-plate__image">
+						<div class="image" style="background-image: url('images/video-preview.jpg');"></div>
+					</div>
+					<div class="video-plate__caption">Допомога організаціям</div>
+				</a>
+			</div>
+			<a href="#" class="button button_linear">Більше відео</a>
+		</div>
+	</div>
+	<div class="screen-aboutus">
+		<div class="wrapper">
+			<h2 class="screen-caption">Про нас</h2>
+			<div class="stat-wr">
+				<div class="stat">
+					<div class="stat__num">3 000+</div>
+					<div class="stat__desc">проектів успішно реалізовано фондом</div>
+				</div>
+				<div class="stat">
+					<div class="stat__num">$10 млн.</div>
+					<div class="stat__desc">надано допомоги з початку війни</div>
+				</div>
+				<div class="stat">
+					<div class="stat__num">1 290 000+</div>
+					<div class="stat__desc">людей отримали допомогу</div>
+				</div>
+				<div class="stat">
+					<div class="stat__num">3 528</div>
+					<div class="stat__desc">людей евакуйовано із зон бойових дій</div>
+				</div>
+			</div>
+			<div class="screen-aboutus__content">
+				<div class="screen-aboutus__text">
+					<p>У зв’язку з критичною гуманітарною ситуацією на території України через повномасштабні воєнні дії головним завданням Фонду є підтримка українців, що потрапили в скрутне становище через воєнні дії в Україні. Ми надаємо гуманітарну, матеріальну, медичну, духовну та інші види допомоги.</p>
+					<p>Якщо ви перебуваєте у складних життєвих обставинах та потребуєте допомоги – зателефонуйте за номером телефону «Фонду Добра та Любові»: <a href="tel:+380443002848">+38 044 300 28 48</a></p>
+				</div>
+				<a href="https://www.youtube.com/watch?v=Jp0avyM6ui4" data-fancybox class="screen-aboutus__video decor">
+					<div class="video" style="background-image: url('images/video-preview.jpg');"></div>
+					<div class="image-decor-red video-decor"></div>
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="screen-programs">
+		<div class="wrapper">
+			<h2 class="screen-caption">Програми</h2>
+			<div class="program-plate-wr">
+				<a class="program-plate decor" href="#">
+					<div class="program-plate__image image-decor" style="background-image: url('images/program-preview.jpg');"></div>
+					<div class="program-plate__content">
+						<div class="program-plate__caption">Захист дитинства та материнства</div>
+						<div class="program-plate__desc">Діяльність Фонду – це внесок у справу розвитку соціального, культурного та духовного потенціалу України.</div>
+						<div class="program-plate__more">Докладніше...</div>
+					</div>
+				</a>
+				<a class="program-plate decor" href="#">
+					<div class="program-plate__image image-decor" style="background-image: url('images/program-preview.jpg');"></div>
+					<div class="program-plate__content">
+						<div class="program-plate__caption">Духовність, культура та освіта</div>
+						<div class="program-plate__desc">Діяльність Фонду – це внесок у справу розвитку соціального, культурного та духовного потенціалу України.</div>
+						<div class="program-plate__more">Докладніше...</div>
+					</div>
+				</a>
+				<a class="program-plate decor" href="#">
+					<div class="program-plate__image image-decor" style="background-image: url('images/program-preview.jpg');"></div>
+					<div class="program-plate__content">
+						<div class="program-plate__caption">Соціальна допомога</div>
+						<div class="program-plate__desc">Діяльність Фонду – це внесок у справу розвитку соціального, культурного та духовного потенціалу України.</div>
+						<div class="program-plate__more">Докладніше...</div>
+					</div>
+				</a>
+				<a class="program-plate decor" href="#">
+					<div class="program-plate__image image-decor" style="background-image: url('images/program-preview.jpg');"></div>
+					<div class="program-plate__content">
+						<div class="program-plate__caption">Гуманітарна допомога організаціям</div>
+						<div class="program-plate__desc">Діяльність Фонду – це внесок у справу розвитку соціального, культурного та духовного потенціалу України.</div>
+						<div class="program-plate__more">Докладніше...</div>
+					</div>
+				</a>
+				<a class="program-plate decor" href="#">
+					<div class="program-plate__image image-decor" style="background-image: url('images/program-preview.jpg');"></div>
+					<div class="program-plate__content">
+						<div class="program-plate__caption">Медична допомога</div>
+						<div class="program-plate__desc">Діяльність Фонду – це внесок у справу розвитку соціального, культурного та духовного потенціалу України.</div>
+						<div class="program-plate__more">Докладніше...</div>
+					</div>
+				</a>
+				<a class="program-plate decor" href="#">
+					<div class="program-plate__image image-decor" style="background-image: url('images/program-preview.jpg');"></div>
+					<div class="program-plate__content">
+						<div class="program-plate__caption">Діяльність в умовах війни</div>
+						<div class="program-plate__desc">Діяльність Фонду – це внесок у справу розвитку соціального, культурного та духовного потенціалу України.</div>
+						<div class="program-plate__more">Докладніше...</div>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="screen-partners">
+		<div class="wrapper">
+			<div class="screen-partners__caption">Партнери</div>
+			<div class="swiper partners-slider">
+				<div class="swiper-wrapper">
+					<a class="swiper-slide partner" href="#">
+						<div class="partner__logo" style="background-image: url('images/partner-preview.png');"></div>
+						<div class="partner__name">Платформа Дія.Бізнес</div>
+					</a>
+					<a class="swiper-slide partner" href="#">
+						<div class="partner__logo" style="background-image: url('images/partner-preview.png');"></div>
+						<div class="partner__name">Міністерство освіти і науки України</div>
+					</a>
+					<a class="swiper-slide partner" href="#">
+						<div class="partner__logo" style="background-image: url('images/partner-preview.png');"></div>
+						<div class="partner__name">Платформа Дія.Бізнес</div>
+					</a>
+					<a class="swiper-slide partner" href="#">
+						<div class="partner__logo" style="background-image: url('images/partner-preview.png');"></div>
+						<div class="partner__name">Міністерство освіти і науки України</div>
+					</a>
+					<a class="swiper-slide partner" href="#">
+						<div class="partner__logo" style="background-image: url('images/partner-preview.png');"></div>
+						<div class="partner__name">Платформа Дія.Бізнес</div>
+					</a>
+					<a class="swiper-slide partner" href="#">
+						<div class="partner__logo" style="background-image: url('images/partner-preview.png');"></div>
+						<div class="partner__name">Міністерство освіти і науки України</div>
+					</a>
+					<a class="swiper-slide partner" href="#">
+						<div class="partner__logo" style="background-image: url('images/partner-preview.png');"></div>
+						<div class="partner__name">Платформа Дія.Бізнес</div>
+					</a>
+					<a class="swiper-slide partner" href="#">
+						<div class="partner__logo" style="background-image: url('images/partner-preview.png');"></div>
+						<div class="partner__name">Міністерство освіти і науки України</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="screen-rada">
+		<div class="wrapper">
+			<h2 class="screen-caption">Про нас</h2>
+			<div class="swiper slider-rada">
+				<div class="swiper-wrapper">
+					<a class="swiper-slide rada-plate decor" href="#">
+						<div class="rada-plate__image image-decor-red" style="background-image: url('images/rada-preview.jpg');"></div>
+						<div class="rada-plate__name">Дубовий Олександр Федорович</div>
+						<div class="rada-plate__desc">Голова наглядової ради ПрАТ «МІГ», народний депутат України VI-VII скликання Верховної Ради, меценат, філантроп.</div>
+					</a>
+					<a class="swiper-slide rada-plate decor" href="#">
+						<div class="rada-plate__image image-decor-red" style="background-image: url('images/rada-preview.jpg');"></div>
+						<div class="rada-plate__name">Катамадзе Грігол Шалвович</div>
+						<div class="rada-plate__desc">Надзвичайний і Повноважний Посол Грузії в Україні (2009—2013). Президент ВГО «Асоціація платників податків України».</div>
+					</a>
+					<a class="swiper-slide rada-plate decor" href="#">
+						<div class="rada-plate__image image-decor-red" style="background-image: url('images/rada-preview.jpg');"></div>
+						<div class="rada-plate__name">Антонюк Валерій Степанович</div>
+						<div class="rada-plate__desc">Голова Союзу Церков євангельських християн-баптистів, пастор, доктор служіння.</div>
+					</a>
+					<a class="swiper-slide rada-plate decor" href="#">
+						<div class="rada-plate__image image-decor-red" style="background-image: url('images/rada-preview.jpg');"></div>
+						<div class="rada-plate__name">Дубовий Олександр Федорович</div>
+						<div class="rada-plate__desc">Голова наглядової ради ПрАТ «МІГ», народний депутат України VI-VII скликання Верховної Ради, меценат, філантроп.</div>
+					</a>
+					<a class="swiper-slide rada-plate decor" href="#">
+						<div class="rada-plate__image image-decor-red" style="background-image: url('images/rada-preview.jpg');"></div>
+						<div class="rada-plate__name">Катамадзе Грігол Шалвович</div>
+						<div class="rada-plate__desc">Надзвичайний і Повноважний Посол Грузії в Україні (2009—2013). Президент ВГО «Асоціація платників податків України».</div>
+					</a>
+					<a class="swiper-slide rada-plate decor" href="#">
+						<div class="rada-plate__image image-decor-red" style="background-image: url('images/rada-preview.jpg');"></div>
+						<div class="rada-plate__name">Антонюк Валерій Степанович</div>
+						<div class="rada-plate__desc">Голова Союзу Церков євангельських християн-баптистів, пастор, доктор служіння.</div>
+					</a>
+				</div>
+
+				<div class="navigation">
+					<button type="button" class="arrow button-prev"></button>
+					<button type="button" class="arrow button-next"></button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="footer">
+		<div class="wrapper">
+			<a href="/" class="logo footer__logo"></a>
+			<div class="footer__caption">Україні потрібна ваша допомога</div>
+			<div class="footer__content">
+				<a href="#" class="button">Підтримати фонд</a>
+				<div class="footer__desc">*Будь-яка надіслана вами сума допоможе врятувати Життя</div>
+			</div>
+			<div class="hotline">
+				<div class="hotline__desc">Гаряча лінія:</div>
+				<a href="tel:+88001234567" class="hotline__num">8 800 123 45 67</a>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>

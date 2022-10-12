@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Верстка</title>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <a href="/" class="logo header__logo"></a>
+            <div class="navbar-mobile">
+                <nav class="navbar">
+                    <ul class="menu menu-main">
+                        <li class="menu-item">
+                            <a href="#">Про фонд</a>
+                        </li>
+                        <li class="menu-item menu-item-has-children">
+                            <a href="#">Програми</a>
+                            <ul class="sub-menu">
+                                <li class="menu-item"><a href="#">Послугa 1</a></li>
+                                <li class="menu-item"><a href="#">Послугa 1</a></li>
+                                <li class="menu-item"><a href="#">Послугa 1</a></li>
+                                <li class="menu-item"><a href="#">Послугa 1</a></li>
+                                <li class="menu-item"><a href="#">Послугa 1</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Новини</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Контакти</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Медіа</a>
+                        </li>
+                    </ul>
+
+                    <div class="soc-wr">
+                        <a href="#" class="soc soc_fb"></a>
+                        <a href="#" class="soc soc_in"></a>
+                        <a href="#" class="soc soc_yt"></a>
+                    </div>
+                </nav>
+            </div>
+            <a href="#" class="button header__button">Підтримати</a>
+            <div class="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+    <div class="screen-media">
+        <div class="wrapper">
+            <div class="news-tabs tabs">
+                <div class="tabs__nav">
+                    <h1 class="">Медіатека</h1>
+                    <h2 class="tabs__nav-btn active" data-tab="#tab_1">Відео</h2>
+                    <h2 class="tabs__nav-btn" data-tab="#tab_2">Фото</h2>
+                </div>
+                <div class="tabs__content">
+                    <div class="tabs__item active" id="tab_1">
+                        <div class="video-items">
+                            <a class="video-plate" href="https://www.youtube.com/watch?v=Jp0avyM6ui4" data-fancybox>
+                                <div class="video-plate__image">
+                                    <div class="image" style="background-image: url('images/video-preview.jpg');"></div>
+                                </div>
+                                <div class="video-plate__caption">Допомога організаціям</div>
+                            </a>
+                            <a class="video-plate" href="https://www.youtube.com/watch?v=Jp0avyM6ui4" data-fancybox>
+                                <div class="video-plate__image">
+                                    <div class="image" style="background-image: url('images/video-preview.jpg');"></div>
+                                </div>
+                                <div class="video-plate__caption">Допомога організаціям</div>
+                            </a>
+                            <a class="video-plate" href="https://www.youtube.com/watch?v=Jp0avyM6ui4" data-fancybox>
+                                <div class="video-plate__image">
+                                    <div class="image" style="background-image: url('images/video-preview.jpg');"></div>
+                                </div>
+                                <div class="video-plate__caption">Допомога організаціям</div>
+                            </a>
+                            <a class="video-plate" href="https://www.youtube.com/watch?v=Jp0avyM6ui4" data-fancybox>
+                                <div class="video-plate__image">
+                                    <div class="image" style="background-image: url('images/video-preview.jpg');"></div>
+                                </div>
+                                <div class="video-plate__caption">Допомога організаціям</div>
+                            </a>
+                            <a class="video-plate" href="https://www.youtube.com/watch?v=Jp0avyM6ui4" data-fancybox>
+                                <div class="video-plate__image">
+                                    <div class="image" style="background-image: url('images/video-preview.jpg');"></div>
+                                </div>
+                                <div class="video-plate__caption">Допомога організаціям</div>
+                            </a>
+                            <a class="video-plate" href="https://www.youtube.com/watch?v=Jp0avyM6ui4" data-fancybox>
+                                <div class="video-plate__image">
+                                    <div class="image" style="background-image: url('images/video-preview.jpg');"></div>
+                                </div>
+                                <div class="video-plate__caption">Допомога організаціям</div>
+                            </a>
+                        </div>
+                        <a href="#" class="button button_linear">Більше відео</a>
+                    </div>
+                    <div class="tabs__item" id="tab_2">
+                        <div class="foto-items">
+                            <a href="images/program-preview.jpg" class="foto" data-caption="Різдвяна акція, лютий 2022" data-fancybox="gallery">
+                                <div class="foto__image">
+                                    <div class="image" style="background-image: url('images/program-preview.jpg');"></div>
+                                </div>
+                                <div class="foto__caption">Різдвяна акція, лютий 2022</div>
+                            </a>
+                            <a href="images/program-preview.jpg" class="foto" data-caption="Різдвяна акція, лютий 2022" data-fancybox="gallery">
+                                <div class="foto__image">
+                                    <div class="image" style="background-image: url('images/program-preview.jpg');"></div>
+                                </div>
+                                <div class="foto__caption">Різдвяна акція, лютий 2022</div>
+                            </a>
+                            <a href="images/program-preview.jpg" class="foto" data-caption="Різдвяна акція, лютий 2022" data-fancybox="gallery">
+                                <div class="foto__image">
+                                    <div class="image" style="background-image: url('images/program-preview.jpg');"></div>
+                                </div>
+                                <div class="foto__caption">Різдвяна акція, лютий 2022</div>
+                            </a>
+                            <a href="images/program-preview.jpg" class="foto" data-caption="Різдвяна акція, лютий 2022" data-fancybox="gallery">
+                                <div class="foto__image">
+                                    <div class="image" style="background-image: url('images/program-preview.jpg');"></div>
+                                </div>
+                                <div class="foto__caption">Різдвяна акція, лютий 2022</div>
+                            </a>
+                            <a href="images/program-preview.jpg" class="foto" data-caption="Різдвяна акція, лютий 2022" data-fancybox="gallery">
+                                <div class="foto__image">
+                                    <div class="image" style="background-image: url('images/program-preview.jpg');"></div>
+                                </div>
+                                <div class="foto__caption">Різдвяна акція, лютий 2022</div>
+                            </a>
+                            <a href="images/program-preview.jpg" class="foto" data-caption="Різдвяна акція, лютий 2022" data-fancybox="gallery">
+                                <div class="foto__image">
+                                    <div class="image" style="background-image: url('images/program-preview.jpg');"></div>
+                                </div>
+                                <div class="foto__caption">Різдвяна акція, лютий 2022</div>
+                            </a>
+                            <a href="images/program-preview.jpg" class="foto" data-caption="Різдвяна акція, лютий 2022" data-fancybox="gallery">
+                                <div class="foto__image">
+                                    <div class="image" style="background-image: url('images/program-preview.jpg');"></div>
+                                </div>
+                                <div class="foto__caption">Різдвяна акція, лютий 2022</div>
+                            </a>
+                            <a href="images/program-preview.jpg" class="foto" data-caption="Різдвяна акція, лютий 2022" data-fancybox="gallery">
+                                <div class="foto__image">
+                                    <div class="image" style="background-image: url('images/program-preview.jpg');"></div>
+                                </div>
+                                <div class="foto__caption">Різдвяна акція, лютий 2022</div>
+                            </a>
+                            <a href="images/program-preview.jpg" class="foto" data-caption="Різдвяна акція, лютий 2022" data-fancybox="gallery">
+                                <div class="foto__image">
+                                    <div class="image" style="background-image: url('images/program-preview.jpg');"></div>
+                                </div>
+                                <div class="foto__caption">Різдвяна акція, лютий 2022</div>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="wrapper">
+            <a href="/" class="logo footer__logo"></a>
+            <div class="footer__caption">Україні потрібна ваша допомога</div>
+            <div class="footer__content">
+                <a href="#" class="button">Підтримати фонд</a>
+                <div class="footer__desc">*Будь-яка надіслана вами сума допоможе врятувати Життя</div>
+            </div>
+            <div class="hotline">
+                <div class="hotline__desc">Гаряча лінія:</div>
+                <a href="tel:+88001234567" class="hotline__num">8 800 123 45 67</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

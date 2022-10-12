@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Верстка</title>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <a href="/" class="logo header__logo"></a>
+            <div class="navbar-mobile">
+                <nav class="navbar">
+                    <ul class="menu menu-main">
+                        <li class="menu-item">
+                            <a href="#">Про фонд</a>
+                        </li>
+                        <li class="menu-item menu-item-has-children">
+                            <a href="#">Програми</a>
+                            <ul class="sub-menu">
+                                <li class="menu-item"><a href="#">Послугa 1</a></li>
+                                <li class="menu-item"><a href="#">Послугa 1</a></li>
+                                <li class="menu-item"><a href="#">Послугa 1</a></li>
+                                <li class="menu-item"><a href="#">Послугa 1</a></li>
+                                <li class="menu-item"><a href="#">Послугa 1</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Новини</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Контакти</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Медіа</a>
+                        </li>
+                    </ul>
+
+                    <div class="soc-wr">
+                        <a href="#" class="soc soc_fb"></a>
+                        <a href="#" class="soc soc_in"></a>
+                        <a href="#" class="soc soc_yt"></a>
+                    </div>
+                </nav>
+            </div>
+            <a href="#" class="button header__button">Підтримати</a>
+            <div class="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+    <div class="screen-donation">
+        <div class="wrapper">
+            <h1>Зроби внесок до фонду</h1>
+            <div class="screen-donation__body">
+
+                <div class="news-tabs tabs">
+                    <div class="tabs__nav">
+                        <h2 class="tabs__nav-btn active" data-tab="#tab_1">Платіж карткою</h2>
+                        <h2 class="tabs__nav-btn" data-tab="#tab_2">Перекази по Україні</h2>
+                        <h2 class="tabs__nav-btn" data-tab="#tab_3">Перекази з-за кордону</h2>
+                        <h2 class="tabs__nav-btn" data-tab="#tab_4">Криптовалюта</h2>
+                        <h2 class="tabs__nav-btn" data-tab="#tab_5">Підтримати команду</h2>
+                    </div>
+                    <div class="tabs__content">
+                        <div class="tabs__item active" id="tab_1">
+                            <div class="donation-items">
+                                <div class="donation-item">
+                                    <div>
+                                        <div class="donation-item__subtitle">Рахунок в "Ощадбанку"​ (IBAN)
+                                        </div>
+                                        <p data-copy>UA223226690000026007300905964</p>
+                                        <textarea data-copy-text>UA223226690000026007300905964</textarea>
+                                    </div>
+                                    <button type="button" class="copy" data-copy>Копіювати</button>
+                                </div>
+                                <div class="donation-item">
+                                    <div>
+                                        <div class="donation-item__subtitle">Рахунок в "Приватбанку"​​ (IBAN)
+                                        </div>
+                                        <p data-copy>UA383052990000026005015017860</p>
+                                        <textarea data-copy-text>UA383052990000026005015017860</textarea>
+                                    </div>
+                                    <button type="button" class="copy" data-copy>Копіювати</button>
+                                </div>
+                                <div class="donation-item">
+                                    <div>
+                                        <div class="donation-item__subtitle">Рахунок в "Банк Кредит Дніпро" (IBAN)</div>
+                                        <p data-copy>UA273057490000026004000017928</p>
+                                        <textarea data-copy-text>UA273057490000026004000017928</textarea>
+                                    </div>
+                                    <button type="button" class="copy" data-copy>Копіювати</button>
+                                </div>
+                                <div class="donation-item">
+                                    <div>
+                                        <div class="donation-item__subtitle">Рахунок в "Універсал Банку" (IBAN)</div>
+                                        <p data-copy>UA863220010000026002080000681</p>
+                                        <textarea data-copy-text>UA863220010000026002080000681</textarea>
+                                    </div>
+                                    <button type="button" class="copy" data-copy>Копіювати</button>
+                                </div>
+                                <div class="donation-item">
+                                    <div>
+                                        <div class="donation-item__subtitle">ЄДРПОУ</div>
+                                        <p data-copy>34180379</p>
+                                        <textarea data-copy-text>34180379</textarea>
+                                    </div>
+                                    <button type="button" class="copy" data-copy>Копіювати</button>
+                                </div>
+                                <div class="donation-item">
+                                    <div>
+                                        <div class="donation-item__subtitle">Отримувач</div>
+                                        <p data-copy>БО "МІЖНАРОДНИЙ БЛАГОДІЙНИЙ ФОНД ДОБРА ТА ЛЮБОВІ"</p>
+                                        <textarea data-copy-text>БО "МІЖНАРОДНИЙ БЛАГОДІЙНИЙ ФОНД ДОБРА ТА ЛЮБОВІ"</textarea>
+                                    </div>
+                                    <button type="button" class="copy" data-copy>Копіювати</button>
+                                </div>
+                                <div class="donation-item">
+                                    <div>
+                                        <div class="donation-item__subtitle">Призначення платежу</div>
+                                        <p data-copy>Благодійна допомога</p>
+                                        <textarea data-copy-text>Благодійна допомога</textarea>
+                                    </div>
+                                    <button type="button" class="copy" data-copy>Копіювати</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tabs__item" id="tab_2">
+                            <div class="donation-items">
+                                <div class="donation-item">
+                                    <div>
+                                        <div class="donation-item__subtitle">Рахунок в "Ощадбанку"​ (IBAN)
+                                        </div>
+                                        <p data-copy>UA223226690000026007300905964</p>
+                                        <textarea data-copy-text>UA223226690000026007300905964</textarea>
+                                    </div>
+                                    <button type="button" class="copy" data-copy>Копіювати</button>
+                                </div>
+                                <div class="donation-item">
+                                    <div>
+                                        <div class="donation-item__subtitle">Рахунок в "Приватбанку"​​ (IBAN)
+                                        </div>
+                                        <p data-copy>UA383052990000026005015017860</p>
+                                        <textarea data-copy-text>UA383052990000026005015017860</textarea>
+                                    </div>
+                                    <button type="button" class="copy" data-copy>Копіювати</button>
+                                </div>
+                                <div class="donation-item">
+                                    <div>
+                                        <div class="donation-item__subtitle">Рахунок в "Банк Кредит Дніпро" (IBAN)</div>
+                                        <p data-copy>UA273057490000026004000017928</p>
+                                        <textarea data-copy-text>UA273057490000026004000017928</textarea>
+                                    </div>
+                                    <button type="button" class="copy" data-copy>Копіювати</button>
+                                </div>
+                                <div class="donation-item">
+                                    <div>
+                                        <div class="donation-item__subtitle">Рахунок в "Універсал Банку" (IBAN)</div>
+                                        <p data-copy>UA863220010000026002080000681</p>
+                                        <textarea data-copy-text>UA863220010000026002080000681</textarea>
+                                    </div>
+                                    <button type="button" class="copy" data-copy>Копіювати</button>
+                                </div>
+                                <div class="donation-item">
+                                    <div>
+                                        <div class="donation-item__subtitle">ЄДРПОУ</div>
+                                        <p data-copy>34180379</p>
+                                        <textarea data-copy-text>34180379</textarea>
+                                    </div>
+                                    <button type="button" class="copy" data-copy>Копіювати</button>
+                                </div>
+                                <div class="donation-item">
+                                    <div>
+                                        <div class="donation-item__subtitle">Отримувач</div>
+                                        <p data-copy>БО "МІЖНАРОДНИЙ БЛАГОДІЙНИЙ ФОНД ДОБРА ТА ЛЮБОВІ"</p>
+                                        <textarea data-copy-text>БО "МІЖНАРОДНИЙ БЛАГОДІЙНИЙ ФОНД ДОБРА ТА ЛЮБОВІ"</textarea>
+                                    </div>
+                                    <button type="button" class="copy" data-copy>Копіювати</button>
+                                </div>
+                                <div class="donation-item">
+                                    <div>
+                                        <div class="donation-item__subtitle">Призначення платежу</div>
+                                        <p data-copy>Благодійна допомога</p>
+                                        <textarea data-copy-text>Благодійна допомога</textarea>
+                                    </div>
+                                    <button type="button" class="copy" data-copy>Копіювати</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tabs__item" id="tab_3">
+                            <div class="donation-items">
+                                <div class="donation-item">
+                                    <div>
+                                        <div class="donation-item__subtitle">Рахунок в "Ощадбанку"​ (IBAN)
+                                        </div>
+                                        <p data-copy>UA223226690000026007300905964</p>
+                                        <textarea data-copy-text>UA223226690000026007300905964</textarea>
+                                    </div>
+                                    <button type="button" class="copy" data-copy>Копіювати</button>
+                                </div>
+                                <div class="donation-item">
+                                    <div>
+                                        <div class="donation-item__subtitle">Рахунок в "Приватбанку"​​ (IBAN)
+                                        </div>
+                                        <p data-copy>UA383052990000026005015017860</p>
+                                        <textarea data-copy-text>UA383052990000026005015017860</textarea>
+                                    </div>
+                                    <button type="button" class="copy" data-copy>Копіювати</button>
+                                </div>
+                                <div class="donation-item">
+                                    <div>
+                                        <div class="donation-item__subtitle">Рахунок в "Банк Кредит Дніпро" (IBAN)</div>
+                                        <p data-copy>UA273057490000026004000017928</p>
+                                        <textarea data-copy-text>UA273057490000026004000017928</textarea>
+                                    </div>
+                                    <button type="button" class="copy" data-copy>Копіювати</button>
+                                </div>
+                                <div class="donation-item">
+                                    <div>
+                                        <div class="donation-item__subtitle">Рахунок в "Універсал Банку" (IBAN)</div>
+                                        <p data-copy>UA863220010000026002080000681</p>
+                                        <textarea data-copy-text>UA863220010000026002080000681</textarea>
+                                    </div>
+                                    <button type="button" class="copy" data-copy>Копіювати</button>
+                                </div>
+                                <div class="donation-item">
+                                    <div>
+                                        <div class="donation-item__subtitle">ЄДРПОУ</div>
+                                        <p data-copy>34180379</p>
+                                        <textarea data-copy-text>34180379</textarea>
+                                    </div>
+                                    <button type="button" class="copy" data-copy>Копіювати</button>
+                                </div>
+                                <div class="donation-item">
+                                    <div>
+                                        <div class="donation-item__subtitle">Отримувач</div>
+                                        <p data-copy>БО "МІЖНАРОДНИЙ БЛАГОДІЙНИЙ ФОНД ДОБРА ТА ЛЮБОВІ"</p>
+                                        <textarea data-copy-text>БО "МІЖНАРОДНИЙ БЛАГОДІЙНИЙ ФОНД ДОБРА ТА ЛЮБОВІ"</textarea>
+                                    </div>
+                                    <button type="button" class="copy" data-copy>Копіювати</button>
+                                </div>
+                                <div class="donation-item">
+                                    <div>
+                                        <div class="donation-item__subtitle">Призначення платежу</div>
+                                        <p data-copy>Благодійна допомога</p>
+                                        <textarea data-copy-text>Благодійна допомога</textarea>
+                                    </div>
+                                    <button type="button" class="copy" data-copy>Копіювати</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tabs__item" id="tab_4">
+                            <div class="donation-items">
+                                <div class="donation-item">
+                                    <div>
+                                        <div class="donation-item__subtitle">Рахунок в "Ощадбанку"​ (IBAN)
+                                        </div>
+                                        <p data-copy>UA223226690000026007300905964</p>
+                                        <textarea data-copy-text>UA223226690000026007300905964</textarea>
+                                    </div>
+                                    <button type="button" class="copy" data-copy>Копіювати</button>
+                                </div>
+                                <div class="donation-item">
+                                    <div>
+                                        <div class="donation-item__subtitle">Рахунок в "Приватбанку"​​ (IBAN)
+                                        </div>
+                                        <p data-copy>UA383052990000026005015017860</p>
+                                        <textarea data-copy-text>UA383052990000026005015017860</textarea>
+                                    </div>
+                                    <button type="button" class="copy" data-copy>Копіювати</button>
+                                </div>
+                                <div class="donation-item">
+                                    <div>
+                                        <div class="donation-item__subtitle">Рахунок в "Банк Кредит Дніпро" (IBAN)</div>
+                                        <p data-copy>UA273057490000026004000017928</p>
+                                        <textarea data-copy-text>UA273057490000026004000017928</textarea>
+                                    </div>
+                                    <button type="button" class="copy" data-copy>Копіювати</button>
+                                </div>
+                                <div class="donation-item">
+                                    <div>
+                                        <div class="donation-item__subtitle">Рахунок в "Універсал Банку" (IBAN)</div>
+                                        <p data-copy>UA863220010000026002080000681</p>
+                                        <textarea data-copy-text>UA863220010000026002080000681</textarea>
+                                    </div>
+                                    <button type="button" class="copy" data-copy>Копіювати</button>
+                                </div>
+                                <div class="donation-item">
+                                    <div>
+                                        <div class="donation-item__subtitle">ЄДРПОУ</div>
+                                        <p data-copy>34180379</p>
+                                        <textarea data-copy-text>34180379</textarea>
+                                    </div>
+                                    <button type="button" class="copy" data-copy>Копіювати</button>
+                                </div>
+                                <div class="donation-item">
+                                    <div>
+                                        <div class="donation-item__subtitle">Отримувач</div>
+                                        <p data-copy>БО "МІЖНАРОДНИЙ БЛАГОДІЙНИЙ ФОНД ДОБРА ТА ЛЮБОВІ"</p>
+                                        <textarea data-copy-text>БО "МІЖНАРОДНИЙ БЛАГОДІЙНИЙ ФОНД ДОБРА ТА ЛЮБОВІ"</textarea>
+                                    </div>
+                                    <button type="button" class="copy" data-copy>Копіювати</button>
+                                </div>
+                                <div class="donation-item">
+                                    <div>
+                                        <div class="donation-item__subtitle">Призначення платежу</div>
+                                        <p data-copy>Благодійна допомога</p>
+                                        <textarea data-copy-text>Благодійна допомога</textarea>
+                                    </div>
+                                    <button type="button" class="copy" data-copy>Копіювати</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tabs__item" id="tab_5">
+                            <div class="donation-items">
+                                <div class="donation-item">
+                                    <div>
+                                        <div class="donation-item__subtitle">Рахунок в "Ощадбанку"​ (IBAN)
+                                        </div>
+                                        <p data-copy>UA223226690000026007300905964</p>
+                                        <textarea data-copy-text>UA223226690000026007300905964</textarea>
+                                    </div>
+                                    <button type="button" class="copy" data-copy>Копіювати</button>
+                                </div>
+                                <div class="donation-item">
+                                    <div>
+                                        <div class="donation-item__subtitle">Рахунок в "Приватбанку"​​ (IBAN)
+                                        </div>
+                                        <p data-copy>UA383052990000026005015017860</p>
+                                        <textarea data-copy-text>UA383052990000026005015017860</textarea>
+                                    </div>
+                                    <button type="button" class="copy" data-copy>Копіювати</button>
+                                </div>
+                                <div class="donation-item">
+                                    <div>
+                                        <div class="donation-item__subtitle">Рахунок в "Банк Кредит Дніпро" (IBAN)</div>
+                                        <p data-copy>UA273057490000026004000017928</p>
+                                        <textarea data-copy-text>UA273057490000026004000017928</textarea>
+                                    </div>
+                                    <button type="button" class="copy" data-copy>Копіювати</button>
+                                </div>
+                                <div class="donation-item">
+                                    <div>
+                                        <div class="donation-item__subtitle">Рахунок в "Універсал Банку" (IBAN)</div>
+                                        <p data-copy>UA863220010000026002080000681</p>
+                                        <textarea data-copy-text>UA863220010000026002080000681</textarea>
+                                    </div>
+                                    <button type="button" class="copy" data-copy>Копіювати</button>
+                                </div>
+                                <div class="donation-item">
+                                    <div>
+                                        <div class="donation-item__subtitle">ЄДРПОУ</div>
+                                        <p data-copy>34180379</p>
+                                        <textarea data-copy-text>34180379</textarea>
+                                    </div>
+                                    <button type="button" class="copy" data-copy>Копіювати</button>
+                                </div>
+                                <div class="donation-item">
+                                    <div>
+                                        <div class="donation-item__subtitle">Отримувач</div>
+                                        <p data-copy>БО "МІЖНАРОДНИЙ БЛАГОДІЙНИЙ ФОНД ДОБРА ТА ЛЮБОВІ"</p>
+                                        <textarea data-copy-text>БО "МІЖНАРОДНИЙ БЛАГОДІЙНИЙ ФОНД ДОБРА ТА ЛЮБОВІ"</textarea>
+                                    </div>
+                                    <button type="button" class="copy" data-copy>Копіювати</button>
+                                </div>
+                                <div class="donation-item">
+                                    <div>
+                                        <div class="donation-item__subtitle">Призначення платежу</div>
+                                        <p data-copy>Благодійна допомога</p>
+                                        <textarea data-copy-text>Благодійна допомога</textarea>
+                                    </div>
+                                    <button type="button" class="copy" data-copy>Копіювати</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="wrapper">
+            <a href="/" class="logo footer__logo"></a>
+            <div class="footer__caption">Україні потрібна ваша допомога</div>
+            <div class="footer__content">
+                <a href="#" class="button">Підтримати фонд</a>
+                <div class="footer__desc">*Будь-яка надіслана вами сума допоможе врятувати Життя</div>
+            </div>
+            <div class="hotline">
+                <div class="hotline__desc">Гаряча лінія:</div>
+                <a href="tel:+88001234567" class="hotline__num">8 800 123 45 67</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
